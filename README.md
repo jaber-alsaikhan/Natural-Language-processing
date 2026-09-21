@@ -8,6 +8,7 @@ This repository is a collection of lab work built for the ARTI 452: Natural Lang
 - **Pattern matching:** Using regular expressions to search, extract, and clean text data.
 - **Language modeling:** Building n-gram models, computing word probabilities, and generating text.
 - **Applied text analysis:** Working with real datasets (tweets, movie reviews, poems) to extract hashtags, word statistics, and common phrases.
+- **Text representation:** Turning text into numerical vectors with TF-IDF and Word2Vec embeddings, and comparing documents/words with cosine similarity.
 
 ## Labs
 
@@ -16,18 +17,20 @@ This repository is a collection of lab work built for the ARTI 452: Natural Lang
 | [LAB1](LAB1/README.md) | Introduction to NLP |
 | [LAB2](LAB2/README.md) | Text Pre-processing and Regular Expressions |
 | [LAB3](LAB3/README.md) | N-Grams |
+| [LAB4](LAB4/README.md) | Classification and Evaluation |
+| [LAB5](LAB5/README.md) | Text Representation (TF-IDF and Word2Vec) |
 
 ## Tools Used
 
 - **Language:** Python
-- **Libraries:** NLTK, spaCy, pandas, matplotlib
+- **Libraries:** NLTK, spaCy, pandas, matplotlib, scikit-learn, gensim
 - **Environment:** Jupyter Notebook
 - **Version Control:** Git & GitHub
 
 ## Setup
 
 ```bash
-pip install nltk spacy pandas matplotlib
+pip install nltk spacy pandas matplotlib scikit-learn gensim
 python -m spacy download en_core_web_sm
 ```
 
