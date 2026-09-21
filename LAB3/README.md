@@ -12,7 +12,10 @@ This lab covers n-grams, which are groups of N words taken in order from a text,
 - Training a Maximum Likelihood Estimation (MLE) n-gram model with NLTK
 - Counting unigrams and bigrams from the trained model
 - Evaluating n-gram models using perplexity
-- Task: generating tweets using n-grams (loads `tweets.csv`, a dataset of tweets from Pakistan; falls back to a small demo sample if the file is not found)
+- Task: generating tweets using a bigram MLE model (loads `tweets.csv`, a dataset of tweets from Pakistan; falls back to a small demo sample if the file is not found)
+  - Pre-processing: remove hashtags, RT, websites, mentions, and emojis
+  - Evaluation: probability of the bigram "pakistan is", and perplexity of the word "pakistan"
+  - Generates a sample tweet from the trained model
 
 ## Part 2: Text Analysis and N-gram Generation
 
@@ -45,5 +48,5 @@ The notebook expects the following CSV files in the same folder (each part will 
 ## Requirements
 
 ```bash
-pip install nltk pandas matplotlib
+pip install nltk pandas matplotlib emoji
 ```
