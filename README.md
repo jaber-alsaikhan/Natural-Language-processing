@@ -9,6 +9,7 @@ This repository is a collection of lab work built for the ARTI 452: Natural Lang
 - **Language modeling:** Building n-gram models, computing word probabilities, and generating text.
 - **Applied text analysis:** Working with real datasets (tweets, movie reviews, poems) to extract hashtags, word statistics, and common phrases.
 - **Text representation:** Turning text into numerical vectors with TF-IDF and Word2Vec embeddings, and comparing documents/words with cosine similarity.
+- **Deep learning:** Training feed-forward neural networks in PyTorch for sentiment classification on TF-IDF and Word2Vec features.
 
 ## Labs
 
@@ -19,18 +20,19 @@ This repository is a collection of lab work built for the ARTI 452: Natural Lang
 | [LAB3](LAB3/README.md) | N-Grams |
 | [LAB4](LAB4/README.md) | Classification and Evaluation |
 | [LAB5](LAB5/README.md) | Text Representation (TF-IDF and Word2Vec) |
+| [LAB6](LAB6/README.md) | Deep Learning for NLP (PyTorch Neural Networks) |
 
 ## Tools Used
 
 - **Language:** Python
-- **Libraries:** NLTK, spaCy, pandas, matplotlib, scikit-learn, gensim
+- **Libraries:** NLTK, spaCy, pandas, matplotlib, scikit-learn, gensim, PyTorch
 - **Environment:** Jupyter Notebook
 - **Version Control:** Git & GitHub
 
 ## Setup
 
 ```bash
-pip install nltk spacy pandas matplotlib scikit-learn gensim
+pip install nltk spacy pandas matplotlib scikit-learn gensim torch
 python -m spacy download en_core_web_sm
 ```
 
