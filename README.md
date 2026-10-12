@@ -11,6 +11,7 @@ This repository is a collection of lab work built for the ARTI 452: Natural Lang
 - **Text representation:** Turning text into numerical vectors with TF-IDF and Word2Vec embeddings, and comparing documents/words with cosine similarity.
 - **Deep learning:** Training feed-forward neural networks in PyTorch for sentiment classification on TF-IDF and Word2Vec features.
 - **Large language models:** Using pre-trained Hugging Face transformers (encoder-only, encoder–decoder, decoder-only) for sentiment analysis, translation, summarization, and text generation.
+- **Part-of-speech tagging:** Labeling words with their grammatical category using NLTK and spaCy, and visualizing tags with displaCy.
 
 ## Labs
 
@@ -23,6 +24,7 @@ This repository is a collection of lab work built for the ARTI 452: Natural Lang
 | [LAB5](LAB5/README.md) | Text Representation (TF-IDF and Word2Vec) |
 | [LAB6](LAB6/README.md) | Deep Learning for NLP (PyTorch Neural Networks) |
 | [LAB7](LAB7/README.md) | Large Language Models (Hugging Face Transformers) |
+| [LAB8](LAB8/README.md) | Part-of-Speech (POS) Tagging |
 
 ## Tools Used
 
