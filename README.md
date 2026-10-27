@@ -13,6 +13,7 @@ This repository is a collection of lab work built for the ARTI 452: Natural Lang
 - **Large language models:** Using pre-trained Hugging Face transformers (encoder-only, encoder–decoder, decoder-only) for sentiment analysis, translation, summarization, and text generation.
 - **Part-of-speech tagging:** Labeling words with their grammatical category using NLTK and spaCy, and visualizing tags with displaCy.
 - **Named entity recognition:** Finding and classifying people, organizations, places, dates, and money in text with spaCy, correcting missed entities, and training a custom NER model.
+- **Machine translation:** Building an English → French neural machine translator with an LSTM encoder–decoder in TensorFlow/Keras and scoring it with BLEU.
 
 ## Labs
 
@@ -27,18 +28,19 @@ This repository is a collection of lab work built for the ARTI 452: Natural Lang
 | [LAB7](LAB7/README.md) | Large Language Models (Hugging Face Transformers) |
 | [LAB8](LAB8/README.md) | Part-of-Speech (POS) Tagging |
 | [LAB9](LAB9/README.md) | Named Entity Recognition (NER) |
+| [LAB10](LAB10/README.md) | Introduction to Machine Translation |
 
 ## Tools Used
 
 - **Language:** Python
-- **Libraries:** NLTK, spaCy, pandas, matplotlib, scikit-learn, gensim, PyTorch, Hugging Face Transformers
+- **Libraries:** NLTK, spaCy, pandas, matplotlib, scikit-learn, gensim, PyTorch, TensorFlow/Keras, Hugging Face Transformers
 - **Environment:** Jupyter Notebook
 - **Version Control:** Git & GitHub
 
 ## Setup
 
 ```bash
-pip install nltk spacy pandas matplotlib scikit-learn gensim torch transformers sentencepiece
+pip install nltk spacy pandas matplotlib scikit-learn gensim torch tensorflow transformers sentencepiece kagglehub
 python -m spacy download en_core_web_sm
 ```
 
