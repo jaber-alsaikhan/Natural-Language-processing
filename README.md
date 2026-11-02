@@ -14,6 +14,7 @@ This repository is a collection of lab work built for the ARTI 452: Natural Lang
 - **Part-of-speech tagging:** Labeling words with their grammatical category using NLTK and spaCy, and visualizing tags with displaCy.
 - **Named entity recognition:** Finding and classifying people, organizations, places, dates, and money in text with spaCy, correcting missed entities, and training a custom NER model.
 - **Machine translation:** Building an English → French neural machine translator with an LSTM encoder–decoder in TensorFlow/Keras and scoring it with BLEU.
+- **Attention:** Adding an attention layer to an RNN in PyTorch for question answering, and visualizing which words the model focuses on.
 
 ## Labs
 
@@ -29,6 +30,7 @@ This repository is a collection of lab work built for the ARTI 452: Natural Lang
 | [LAB8](LAB8/README.md) | Part-of-Speech (POS) Tagging |
 | [LAB9](LAB9/README.md) | Named Entity Recognition (NER) |
 | [LAB10](LAB10/README.md) | Introduction to Machine Translation |
+| [LAB11](LAB11/README.md) | Attention with RNN |
 
 ## Tools Used
 
